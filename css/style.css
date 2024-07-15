@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.home-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+
+.home-content {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-content h2 {
+  font-size: 60px;
+}
+
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  margin: 16px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  text-align: start;
+}
+
+.sidenav a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+
+.sidenav .close-btn {
+  text-align: end;
+  font-size: 36px;
+  align-items: self-end;
+  justify-content: end;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.singer-content {
+  margin: 100px auto;
+  width: 50%;
+}
+.singer-content h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+}
+.singer-p {
+  display: none;
+  padding: 10px;
+  background-color: #ccc;
+}
+#duration {
+  background-image: url(../images/joinus.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 330px;
+}
+.item {
+  padding: 50px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  font-size: 30px;
+}
+.header h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.header p {
+  color: #777;
+  font-weight: 300;
+  font-size: 16px;
+}
+.contact-info {
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+}
+.icons p {
+  margin-bottom: 35p;
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+
+.social-icon {
+  margin: 0 10px;
+  text-align: center;
+  color: #777;
+}
+.social-icon i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+  color: #777;
+}
+
+.social-icon i:hover {
+  color: #fff;
+  background-color: #d62e33;
+  border: 1px solid #d62e33;
+}
+form input {
+  border-radius: 0;
+}
+.form-control,
+.btn {
+  border-radius: 0;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+}
+
+#chars {
+  font-size: 20px;
+  color: #d62e33;
+}
+#contact-us {
+  height: 85vh;
+}
+@media (min-width: 350px) {
+  .item {
+    padding: 20px;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  #contact-us {
+    padding: 30px;
+  }
+}
+.container {
+  padding: 100px 0px;
+}
